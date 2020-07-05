@@ -209,19 +209,6 @@ function reverse(string) {
 
 ### Installation Instructions For Local Machine
 
-(This is an example. These are not the actual instructions yet!)
-1. Clone repository down with 'git clone https://github.com/Sunnydayz77/visionTalks.git'
-2. CD into repository
-3. Run 'bundle install'
-4. Run 'rails db:create'
-5. Run 'rails db:migrate RAILS_ENV=development'
-6. Run 'rails db:seed'
-7. Run 'rails server' on 'http://localhost:3000/'
-8. Create new terminal tab with 'command' + 't' on mac
-9. CD in to client folder
-10. Run 'npm install'
-11. Run 'npm install --save axios'
-12. Run 'npm start' on 'http://localhost:3001/'
 
 
 ### Link to deployed site (for quick reference while scrolling through readme file): 
