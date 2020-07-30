@@ -1,11 +1,12 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, Image, View } from "react-native";
+import { StyleSheet, Image, View } from "react-native";
+import LaunchScreen from './screens/launchScreen'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Image source={require("./assets/dummyLogo.png")} />
+      <LaunchScreen/>
       <StatusBar style="auto" />
     </View>
   );
