@@ -1,13 +1,13 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import LaunchScreen from './screens/launchScreen'
+import Container from "./components/container";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <LaunchScreen/>
       <StatusBar style="auto" />
+      <Container />
     </View>
   );
 }
