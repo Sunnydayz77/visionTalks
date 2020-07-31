@@ -8,7 +8,9 @@ export default function AboutScreen() {
         style={styles.image}
         source={require("../assets/screens/easy.jpg")}
       />
-      <Text style={styles.text}>Set and track all of your most important goals on one app.</Text>
+      <Text style={styles.text}>
+        Set and track all of your most important goals on one app.
+      </Text>
 
       <Image
         style={styles.image}
@@ -17,6 +19,14 @@ export default function AboutScreen() {
       <Text style={styles.text}>
         Collaborate with others to reach your goals and help them achieve theirs
       </Text>
+
+      <Button
+        style={styles.button}
+        // onPress={onPressLearnMore}
+        title="Next"
+        // color="#841584"
+        accessibilityLabel="Begin onboarding process"
+      />
     </View>
   );
 }
@@ -35,11 +45,17 @@ const styles = StyleSheet.create({
     // height: 2,
     width: 250,
     borderRadius: 200,
-    marginTop: 50,
+    marginTop: 25,
   },
   text: {
     textAlign: "center",
     marginTop: 10,
-    marginBottom:50,
-  }
+    marginBottom: 30,
+  },
+  button: {
+    textAlign: "center",
+    backgroundColor: "#efeff0",
+    color: "white",
+    marginBottom: 100,
+  },
 });
