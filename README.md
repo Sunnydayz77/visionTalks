@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# visionTalks
-=======
 # Vision Talks
 
 ## Project Planning
@@ -221,4 +218,3 @@ Surge(front-end): () <br>
 Heroku(Back-end): () <br>
 
 ***
->>>>>>> 12241db18c8307dfc29a3c53f615a4719f6947ee
