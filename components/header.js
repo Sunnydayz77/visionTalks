@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     // flex: 1,
     backgroundColor: "#efeff0",
     alignItems: "center",
-    marginTop: 50,
     marginBottom: 0,
+    height: 50,
   },
 });
